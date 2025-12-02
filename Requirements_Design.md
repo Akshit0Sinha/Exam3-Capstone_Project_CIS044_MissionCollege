@@ -18,6 +18,9 @@ Hence, from this description, a tree follows this process of matching criteria t
 Otherwise, I selected Option D as I found this the most interesting project out of the four to analyze and find a solution for.
 
 **See UML Diagram in "Exam3_UMLDiagram"**
+
+
+
 ![UML Diagram](./Exam3_UMLDiagram.png)
 
 
