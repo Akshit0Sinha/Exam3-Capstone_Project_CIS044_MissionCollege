@@ -3,31 +3,25 @@
  * decision nodes to evaluate conditions.
  */
 public class ApplicantData {
-
 	private double income;
 	private int creditScore;
-	private double debtRatio;
+	private boolean stableEmployment;
 
-	/**
-	 * Constructs ApplicantData with given attributes. parameter income applicant
-	 * income, applicant credit score & applicant debt ratio
-	 */
-	public ApplicantData(double income, int creditScore, double debtRatio) {
+	public ApplicantData(double income, int creditScore, boolean stableEmployment) {
 		this.income = income;
 		this.creditScore = creditScore;
-		this.debtRatio = debtRatio;
+		this.stableEmployment = stableEmployment;
 	}
 
 	public int getCreditScore() {
 		return creditScore;
 	}
 
-	public double getDebtRatio() {
-		return debtRatio;
-	}
-
-	// Getter methods
 	public double getIncome() {
 		return income;
+	}
+
+	public boolean hasStableEmployment() {
+		return stableEmployment;
 	}
 }

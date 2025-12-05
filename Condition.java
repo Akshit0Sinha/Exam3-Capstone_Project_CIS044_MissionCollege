@@ -3,5 +3,5 @@
  * method, which returns true if the condition passes, false otherwise.
  */
 public interface Condition {
-	boolean test(ApplicantData data);
+	boolean evaluate(ApplicantData data);
 }

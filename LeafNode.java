@@ -18,12 +18,13 @@ public class LeafNode extends DecisionNode {
 	 * @param data applicant data (unused in leaf)
 	 * @return the decision result
 	 */
+
 	@Override
 	public String evaluate(ApplicantData data) {
 		return result;
 	}
 
-	@Override
+
 	public boolean isLeaf() {
 		return true;
 	}
